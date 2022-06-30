@@ -1,32 +1,74 @@
 {
+  "game_options_grid": {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "1,1",
+    "item_size": 35,
+    "rows": [
+      [
+        "prologue",
+        "openfaron",
+        "mdhskip",
+        "vesself",
+        "vessele",
+        "vessell",
+		"potvanilla",
+		"hcvanilla"
+      ]
+	]
+  },
+  "shuffles_grid": {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "1,1",
+    "item_size": 35,
+    "rows": [
+      [
+        "poesanity",
+        "bugsanity",
+        "shopsanity",
+        "skillsanity",
+        "skysanity",
+        "npcs",
+		"",
+		""
+      ]
+	]
+  },
   "options_popup": {
-    "type": "tabbed",
-    "tabs": [
-      {
-        "title": "Game Options",
-        "content": {
-          "type": "array",
-          "orientation": "horizontal",
-          "content": [
-            {
-              "type": "itemgrid",
-              "item_size": 50,
-              "rows": [
-                [
-                  "prologue",
-                  "openfaron",
-                  "mdhskip",
-                  "vesself",
-                  "vessele",
-                  "vessell",
-                  "potvanilla",
-                  "hcvanilla"
-                ]
-              ]
+    "type": "container",
+	"background": "#000000",
+	"content": {
+	  "type": "dock",
+	  "dropshadow": false,
+	  "content": [
+	    {
+		  "type": "dock",
+		  "dock": "left",
+		  "v_alignment": "stretch",
+		  "margin": "0,0,3,0",
+		  "content": [
+		    {
+              "type": "group",
+              "header": "Game Options",
+              "dock": "top",
+			  "content": {
+				"type": "layout",
+				"key": "game_options_grid"
+			  }
+            },
+			{
+              "type": "group",
+              "header": "Shuffles",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+				"key": "shuffles_grid"
+              }
             }
-          ]
+		  ]
         }
-      }
-    ]
+      ]
+    }
   }
 }
