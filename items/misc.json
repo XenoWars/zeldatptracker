@@ -361,5 +361,119 @@
     "max_quantity": 999,
     "increment": 1,
     "codes": "icetrap"
+  },
+  {
+    "name": "FT Label",
+    "type": "static",
+    "img": "images/forest-label.png",
+    "codes": "ftlabel"
+  },
+  {
+    "name": "GM Label",
+    "type": "static",
+    "img": "images/mines-label.png",
+    "codes": "gmlabel"
+  },
+  {
+    "name": "LT Label",
+    "type": "static",
+    "img": "images/lakebed-label.png",
+    "codes": "ltlabel"
+  },
+  {
+    "name": "AG Label",
+    "type": "static",
+    "img": "images/arbitur-label.png",
+    "codes": "aglabel"
+  },
+  {
+    "name": "SR Label",
+    "type": "static",
+    "img": "images/snowpeak-label.png",
+    "codes": "srlabel"
+  },
+  {
+    "name": "ToT Label",
+    "type": "static",
+    "img": "images/temple-label.png",
+    "codes": "totlabel"
+  },
+  {
+    "name": "CitS Label",
+    "type": "static",
+    "img": "images/city-label.png",
+    "codes": "citslabel"
+  },
+  {
+    "name": "PoT Label",
+    "type": "static",
+    "img": "images/palace-label.png",
+    "codes": "potlabel"
+  },
+  {
+    "name": "Faron Label",
+    "type": "static",
+    "img": "images/faron-label.png",
+    "codes": "faronlabel"
+  },
+  {
+    "name": "Gate Label",
+    "type": "static",
+    "img": "images/gate-label.png",
+    "codes": "gatelabel"
+  },
+  {
+    "name": "Bulblin Camp Label",
+    "type": "static",
+    "img": "images/camp-label.png",
+    "codes": "camplabel"
+  },
+  {
+    "name": "HC Label",
+    "type": "static",
+    "img": "images/castle-label.png",
+    "codes": "hclabel"
+  },
+  {
+    "name": "Poesanity",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/soul.png",
+    "codes": "poesanity"
+  },
+  {
+    "name": "Bugsanity",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/bug-m-dragon.png",
+    "codes": "bugsanity"
+  },
+  {
+    "name": "Shopsanity",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/rupee.png",
+    "codes": "shopsanity"
+  },
+  {
+    "name": "Skill Shuffle",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/hiddenskill.png",
+    "codes": "skillsanity"
+  },
+  {
+    "name": "Sky Character Shuffle",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/skybook.png",
+    "codes": "skysanity"
+  },
+  {
+    "name": "Gifts from NPCs",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/bottle-sara.png",
+    "codes": "npcs"
   }
 ]
